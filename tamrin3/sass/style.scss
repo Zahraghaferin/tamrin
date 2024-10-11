@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+}
+.header{
+    text-align: center;
+    margin-top: 20px;
+    h1{
+        color: orange;
+        background-color: white;
+        display: inline;
+        padding: 10px 20px;
+        border-radius:20px;
+    }
+    a{
+        text-decoration: none;
+        color: orange;
+        font-weight: bold;
+    }
+
+    .divider{
+        border: none;
+        border-top: 20px solid white;
+        margin:20px 0;
+        width: 100%;
+    }
+
+
+
+}
+#horder{
+    text-align: center;
+    color: black
+}
+#bodyorder{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+$gap: 20px ;
+$image-size: 150px;
+.gallery{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    max-width: 640px;
+    margin: 0 auto;
+    .gallery-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        img{
+            width: $image-size;
+            height: $image-size;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        span{
+            font-size: 16px;
+        }
+    }
+}
+#bodyblog{
+    background-image: url(../tasty-pepperoni-pizza-black-concrete-background_2_-crc2de4f020-_size22.46mb_8000x4062-430x218.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#h1blog{
+    display: inline;
+    background-color: white;
+}
+#p1blog{
+    color: white;
+}
+#h1blog{
+    display: inline;
+    background-color: white;
+}
+#p1blog{
+    color: white;
+}
+#h1blog{
+    display: inline;
+    background-color: white;
+}
+#p1blog{
+    color: white;
+}
+#bodycontact{
+    background: linear-gradient(45deg , white, orange)
+}
