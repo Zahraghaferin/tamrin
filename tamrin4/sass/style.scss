@@ -1,0 +1,283 @@
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(129, 0, 0, 1);
+    color: white;
+    z-index: 1000;
+    padding: 10px 0;
+    text-align: center;
+
+}
+#firsth1{
+    color: #000;
+}
+$hover-color: #ff5733;
+#a1{
+    text-decoration: none;
+    color: white;
+    &:hover {
+        color: $hover-color;}
+}
+img{
+    max-width:90%;
+    height: auto;
+    margin: 200px auto;
+    display: block;
+    padding:0;
+}
+$text-color: #AE1316;
+$line-color: #000 ;
+.line{
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    &::before ,
+    &::after{
+        content: '';
+        flex: 1;
+        border-bottom: 0.5px solid $line-color ;
+        margin: 0 10px;
+    }
+    color: $text-color;
+    font-size:xx-large;
+    font-weight:bolder;
+}
+$border-color:#ccc;
+.gallery-container{
+    display: flex ;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 2px solid $border-color;
+    padding:20px;
+    margin:20px;
+    flex-wrap: wrap;
+}
+.gallery-item{
+    border: 5px solid $border-color;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    flex: 1 0 18%;
+}
+$bg-color:rgba(255, 255, 255, 0.2);
+$border-color: #000000;
+$button-bg:#AE1316;
+$button-hover-bg:#AE1316;
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    background-color: $bg-color;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid $border-color;
+    .item{
+        text-align: center;
+        border: 2px solid $border-color;
+        border-radius: 10px;
+        background-color: rgb(66, 65, 75);
+        padding: 5px;
+        margin: 5px;
+        flex: 1;
+        max-width: 200px;
+        img{
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        p{
+            margin: 10px 0;
+            color: white;
+            font-size: xx-large;
+        }
+        .button{
+            background-color: #AE1316;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            
+            &:hover{
+                background-color: $button-hover-bg;
+            }
+        }
+    }
+}
+@media (max-width:600px){
+    .gallery{
+        flex-direction: column;
+        align-items: center;
+        .item{
+            max-width: 100%;
+            margin: 10px 0;
+        }
+    }
+}
+#h3{
+    color: rgb(126, 125, 124);
+    text-align: center;
+}
+#lineh3{
+    color: rgb(164, 4, 4);
+}
+// styles.scss
+$bg-color: #f2f2f2;
+
+table {
+    width: 100%;
+    background-color: $bg-color;
+    border-collapse: collapse;
+
+    tr {
+        td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+
+            a {
+                text-decoration: none;
+                color: #333;
+                &:hover {
+                    color: #007BFF;
+                }
+            }
+        }
+    }
+}
+// styles.scss
+$primary-color:$button-bg;
+$background-color: #f2f2f2;
+$button-color: #28a745;
+$text-color: #ff5733; // رنگ دلخواه برای متن
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: $background-color;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+
+    h1 {
+        color: $primary-color;
+    }
+
+    p {
+        color: #666;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        margin-bottom: 5px;
+        color: $text-color; // اعمال رنگ دلخواه برای متن
+    }
+
+    input, textarea {
+        margin-bottom: 15px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    button {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: $button-color;
+        color: white;
+        cursor: pointer;
+
+        &:hover {
+            background-color: darken($button-color, 10%);
+        }
+    }
+}
+#spanreq{
+    color: #AE1316;
+}
+.contactbackground{
+    background-image: url(../img/logo2.jpeg);
+    background-size:contain;
+}
+#anbar{
+    background-image: url(../img/دوربین-مداربسته-انبار.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#sherkat{
+    background-image: url(../img/دوربین-برای-شرکت-3-768x614.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#khaneh{
+    background-image: url(../img/دوربین-برای-منزل-3-768x614.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#h1sherkat{
+    color: white;
+}
+#h1ezterari{
+    background-image: url(../img/ax1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#h1amaken{
+    background-image: url(../img/ax2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+#h1radyab{
+    background-image: url(../img/ax3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+#h1dorbin{
+    background-image: url(../img/ax4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+#h1about{
+    text-align: center;
+    color: #ffffff;
+    background-color: #ca3e3e;
+}
+h3{
+    background: linear-gradient(red,yellow);
+    background-attachment: fixed;
+}
+#divabout{
+    background-color: yellow;
+}
