@@ -1,0 +1,278 @@
+// styles.scss
+$primary-color: rgb(224,83,175);
+$background-color: rgb(224, 83, 175);
+$table-header-color: #333;
+#firsth1{
+    text-align: center;
+    color: white;
+}
+
+#bodyfood{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: $background-color;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+
+    th {
+        background-color: $primary-color;
+        color: white;
+    }
+
+    td a {
+        color: $primary-color;
+        text-decoration: none;
+
+        &:hover {
+            color: darken($primary-color, 10%);
+        }
+    }
+}
+// styles.scss
+$primary-color: #007BFF;
+$background-color: #007BFF;
+$text-color: #333;
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: $background-color;
+    margin: 0;
+    padding: 0;
+}
+
+.phone {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+h1 {
+    text-align: center;
+    color: $primary-color;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+
+    th {
+        background-color: $primary-color;
+        color: white;
+    }
+
+    td {
+        color: $text-color;
+
+        a {
+            color: $primary-color;
+            text-decoration: none;
+
+            &:hover {
+                color: darken($primary-color, 10%);
+            }
+        }
+
+        blockquote {
+            font-style: italic;
+            color: darken($text-color, 20%);
+            margin: 10px 0;
+        }
+
+        ul, ol {
+            list-style-position: inside;
+            text-align:right;
+            margin: 10px 0;
+        }
+    }
+}
+
+}
+#firsth1phone{
+    color:white;
+    text-align: center;
+}
+.alink{
+    text-decoration: none;
+    color: white;
+}
+.alink:hover{
+    color: black;
+    text-decoration:underline;
+}
+.alink:active{
+    color: white;
+}
+// styles.scss contact
+$primary-color: #007BFF;
+$background-color: #f2f2f2;
+$text-color: #333;
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #21aa58;
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+
+    th {
+        background-color: #21aa58;
+        color: white;
+    }
+
+    td {
+        color: $text-color;
+
+        a {
+            color: $primary-color;
+            text-decoration: none;
+
+            &:hover {
+                color: darken($primary-color, 10%);
+            }
+        }
+
+        blockquote {
+            font-style: italic;
+            color: darken($text-color, 20%);
+            margin: 10px 0;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: left;
+            direction: ltr;
+        }
+
+        cite {
+            display: block;
+            font-style: italic;
+            color: darken($text-color, 20%);
+            margin-top: 10px;
+        }
+
+        iframe {
+            display: block;
+            margin: 10px auto;
+            border: 1px solid #ccc;
+        }
+    }
+}
+// styles.scss library
+// styles.scss
+$primary-color: #821aba;
+$background-color: #f2f2f2;
+$text-color: #333;
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: $background-color;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: $primary-color;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+
+    th {
+        background-color: $primary-color;
+        color: white;
+    }
+
+    td {
+        color: $text-color;
+
+        a {
+            color: $primary-color;
+            text-decoration: none;
+
+            &:hover {
+                color: darken($primary-color, 10%);
+            }
+        }
+
+        blockquote {
+            font-style: italic;
+            color: darken($text-color, 20%);
+        }     
+    } 
+
+    }
